@@ -1,0 +1,118 @@
+/* ベーススタイル */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* ヘッダー */
+.header {
+  background-color: #1f1f1f;
+  padding: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 2rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.navbar a:hover {
+  color: #4CAF50;
+}
+
+/* セクション共通 */
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+/* Contactセクションのスタイル */
+#contact {
+  background-color: #333;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+#contact a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+
+/* プロジェクト */
+.project {
+  background-color: #1f1f1f;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.project a:hover {
+  background-color: #45a049;
+}
+
+/* フッター */
+.footer {
+  background-color: #1f1f1f;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
